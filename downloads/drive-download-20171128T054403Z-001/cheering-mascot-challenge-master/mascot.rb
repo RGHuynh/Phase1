@@ -1,10 +1,10 @@
 # Get input from the user:  the cheer
 def call_out_cheer
     p "write some shit!"
-    count = 1
+    number_of_tries = 1
     user_cheer = gets.chomp
-    until user_cheer != "" || count == 2
-      count += 1
+    until user_cheer != "" || number_of_tries == 2
+      number_of_tries += 1
       user_cheer = gets.chomp
     end
     user_cheer
